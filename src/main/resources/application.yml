@@ -1,0 +1,17 @@
+spring:
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+rabbitmq:
+  queue:
+    name: yusufozbay
+    json:
+      name: yusufozbay_json
+  exchange:
+    name: yusufozbay_exchange
+  routing:
+    key: yusufozbay_routing_key
+    json:
+      key: yusufozbay_json_routing_key
